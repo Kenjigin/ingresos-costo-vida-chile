@@ -1,0 +1,25 @@
+# --- Datos: no se suben (pesados; se descargan de las fuentes oficiales) ---
+01_datos_crudos/**/*.csv
+01_datos_crudos/**/*.xlsx
+01_datos_crudos/**/*.zip
+01_datos_crudos/**/*.sav
+03_datos_procesados/**/*.csv
+02_documentacion_fuentes/*.pdf
+02_documentacion_fuentes/*.xlsx
+
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# --- Power BI (respaldo temporal) ---
+06_powerbi/*.pbix.bak
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
